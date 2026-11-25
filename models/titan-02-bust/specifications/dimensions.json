@@ -1,0 +1,17 @@
+{
+  "revision": "0.1",
+  "unit": "mm",
+  "accessorized_head": {"width": 62, "height": 67, "depth": 72},
+  "prototype": {"width": 56, "height": 60, "depth": 64},
+  "minimum_wall": 2.4,
+  "joint": {"side_clearance": 0.25, "end_clearance": 0.5, "fuse_overlap": 1},
+  "frame": {
+    "base": {"bounds": [-22, 22, -25, 23], "chamfer": 5, "z": [0, 22], "bevel": 2},
+    "crown": {"bounds": [-19, 19, -18, 21], "chamfer": 5, "z": [19, 54], "bevel": 2},
+    "helmet_tabs": [[-11, 1, 6, 8], [11, 1, 5, 8]],
+    "helmet_tab_tip_z": 56.5,
+    "mask_sockets": [[-11, 11, 6, 5], [11, 11, 5, 5]]
+  },
+  "helmet": {"front_y": -24, "bottom_z": 23, "wall": 3.5, "ceiling_z": 54, "chamfer": 9, "bevel": 2},
+  "mask": {"rear_y": -25, "tip_y": -19, "bevel": 2, "profile": [[-16, 3], [16, 3], [23, 12], [24, 28], [17, 38], [-17, 38], [-24, 28], [-23, 12]]}
+}
